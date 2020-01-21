@@ -73,36 +73,34 @@ class Sound {
       constructor(midi) {
         this.midi = midi;
       }
-    }
+}
     
-    class Sequencer {
-      constructor() {
-        this.sequence = [];
-      }
+class Sequencer {
+     constructor() {
+       this.sequence = [];
+    }
       
         //The `sound` paramater is an instance of `Sound` class
       
-      addSound(time, sound) {
+    addSound(time, sound) {
         this.time = time;
         this.sound = sound;
     }
     
       //The `sound` paramater is an instance of `Sound` class
     
-      removeSound(time, sound) {
+    removeSound(time, sound) {
         this.time = time;
         this.sound = sound;
 
     }
     
-      playAllSoundsAtTimeI(i) {
-        this.i = i;
-      }
+     playAllSoundsAtTimeI(i) {
+        this.time = i; 
+     }
     
       //The `sound` paramater is an instance of `Sound` class
       //Pretend this method is impelmented for you
 
       play(sound) {}
-        this.sound = sound;
 }
-
