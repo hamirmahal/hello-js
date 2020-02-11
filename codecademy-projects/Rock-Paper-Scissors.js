@@ -4,7 +4,7 @@ const getUserChoice = userInput => {
     return userInput;
   } else {
     console.log('Error!');
-  }  
+  }
 }
 
 console.log(getUserChoice('knife'));
@@ -19,7 +19,7 @@ function getComputerChoice() {
     case 2:
       return 'scissors';
       }
-}  
+}
 
 console.log(getComputerChoice());
 
@@ -29,7 +29,7 @@ function determineWinner (userChoice, computerChoice) {
       return 'Computer won'
     	} else {
       	return 'User won'
-  		} 
+  		}
   }
 	if (userChoice === 'paper') {
    if (computerChoice === 'scissors') {
@@ -63,3 +63,7 @@ const playGame= () => {
 
 playGame();
 
+/*LINKS FOR BUILDING SYNTHS
+  https://codesandbox.io/live/BnPMJ
+  https://tonejs.github.io/
+*/
