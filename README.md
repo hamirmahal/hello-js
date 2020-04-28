@@ -1,6 +1,6 @@
 js-learnings
 ============
-# Getting Started
+## Getting Started
 
 ```bash
 # Setup
