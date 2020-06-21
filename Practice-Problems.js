@@ -157,3 +157,15 @@ function evenNums (arr) {
 evenNums(nums);
 
 //Alt solution: const filterEven = (arr) => arr.filter(isEven)
+
+// Write a function that checks if a string is a palindrome
+// ex. 'racecar'
+
+function isPalindrome (str) {
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] !== str[str.length-1-[i]]) {
+      return false
+    }
+  } 
+  return true
+}
