@@ -126,3 +126,31 @@ expect(addKeysAndValuesToArrays({
   ['foo', 'bar'],
   [1, 4]
 ]);
+
+// Write a function that return sif a number is even or not
+function isEven(num) {
+  if (num % 2 == 0) {
+    return true
+  } else {
+    return false
+  }
+}
+
+isEven(4)
+
+// Write a function that takes an array of numbers and return an array
+// with only the even numbers
+
+let nums = [ 1,2,3,4,5,6]
+
+function evenNums (arr) {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
+      newArr.push(arr[i])
+    }
+  }
+  return newArr
+}
+
+evenNums(nums);
