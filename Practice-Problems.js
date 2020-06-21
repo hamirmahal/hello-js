@@ -153,4 +153,7 @@ function evenNums (arr) {
   return newArr
 }
 
+//Test
 evenNums(nums);
+
+//Alt solution: const filterEven = (arr) => arr.filter(isEven)
