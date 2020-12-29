@@ -11,8 +11,6 @@ yarn
 # Test
 yarn test
 
-# Running individual files
-yarn global add @babel/cli
-# Running/testing files
-babel-node General/PrintKDistance.js
+# Running files
+node General/PrintKDistance.js
 ```
