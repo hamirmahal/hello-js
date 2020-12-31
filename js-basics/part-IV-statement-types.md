@@ -16,24 +16,24 @@
     - Example B: if ... else
     - Example C: if ... else if
       - Syntactical format:
-        Example A:
-          if (condition) { // the condition should evaluate to true for the code block {} to run.
+        - Example A:
+            if (condition) { // the condition should evaluate to true for the code block {} to run.
             then do this
-          }
-        Example B:
-          if (condition) {
-            then do something
-          } else { // <em>else</em> will only run if the specified condition evaluates to false
-            do this.
-          }
-        Example C:
-          if (condition) {
-            then do something
-          } else if (condition) { // <em>else if</em> is used when you want to test another condition
-            do this now
-          } else {
-            do this.
-          }
+            }
+        - Example B:
+            if (condition) {
+              then do something
+            } else { // <em>else</em> will only run if the specified condition evaluates to false
+              do this.
+            }
+        - Example C:
+            if (condition) {
+              then do something
+            } else if (condition) { // <em>else if</em> is used when you want to test another condition
+              do this now
+            } else {
+              do this.
+            }
 
 
 
