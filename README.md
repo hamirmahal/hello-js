@@ -8,13 +8,13 @@ In this repo, you will find notes that I took based on [MDN Web Docs](https://de
 
 ## Resources
 - Online Courses with Practice Problems and Coding Challenges
-  - freeCodeCamp (free!)
-  - CodeCademy ($$) 
+  - [freeCodeCamp](https://www.freecodecamp.org/) (free!)
+  - [CodeCademy])https://www.codecademy.com/) ($$) 
 - My Favorite YouTubers
-  - DevEd
-  - TraversyMedia
-  - CodingTrain
-  - freeCodeCamp
+  - [DevEd](https://www.youtube.com/Deved)
+  - [TraversyMedia](https://www.youtube.com/traversymedia)
+  - [The Coding Train](https://www.youtube.com/user/shiffman)
+  - [freeCodeCamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
 - Online Practice Problem Resources 
   - [Edabit](https://edabit.com/challenges)
 
