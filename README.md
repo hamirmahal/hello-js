@@ -9,7 +9,7 @@ In this repo, you will find notes that I took based on [MDN Web Docs](https://de
 ## Resources
 - Online Courses with Practice Problems and Coding Challenges
   - [freeCodeCamp](https://www.freecodecamp.org/) (free!)
-  - [CodeCademy])https://www.codecademy.com/) ($$) 
+  - [CodeCademy](https://www.codecademy.com/) ($$) 
 - My Favorite YouTubers
   - [DevEd](https://www.youtube.com/Deved)
   - [TraversyMedia](https://www.youtube.com/traversymedia)
