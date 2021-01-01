@@ -12,42 +12,39 @@
 - Conditional statements
   - A series of commands will execute PROVIDED THAT a specific condition is true.
   - Tyles of conditional statements:
-   - Example A: `if ...` 
+   - Example A: `if ...`; Code block {} will only run if condition evaluates to true.
     ```
       if (condition) { 
         //do something
       }
     ```
-     - Code block will only run if condition evaluates to true.
-   - Example B: `if ... else`
-    ```
-      if (condition) {
-        // do something
-      } else {
-        // do this
-      }
-    ```
-     - <em>else</em> is optional and is only used to state what should happen in the case that the specifed condition evaluates to false.
-   - Example C: `if ... else if`
-    ```
-      if (condition) {
-        // then do something
-      } else if (condition) { 
-        // do this now
-      } else {
-        // do this.
-      }
-      ```
-     - <em>else if</em> is used when you want to test another condition
+   - Example B: `if ... else` ; <em>else</em> is optional and is only used to state what should happen in the case that the specifed condition evaluates to false.
+        ```
+        if (condition) {
+          // do something
+        } else {
+          // do this
+        }
+        ```
+   - Example C: `if ... else if`; <em>else if</em> is used when you want to test another condition
+        ```
+        if (condition) {
+          // then do something
+        } else if (condition) { 
+          // do this now
+        } else {
+          // do this.
+        } 
+        ```
   - If the conditon you are specifying uses the assignment operator (`=`), then make sure to use double parentheses because otherwise, it can be easily confused with the <em>loose equality</em> (`==`)
    - For example:
-      ```    
-      if ((x = 0)) {
-        //some statement here
-      } else {
-        //do this
-      }
-      ```
+        ```    
+        if ((x = 0)) {
+          //some statement here
+        } else {
+          //do this
+        }
+        ```
 - Switch statement
   - A switch statement is used by a program to evaluate an expression and match its value to a case that you provide. If the expression matches, a command (or commands) will be executed.
   - Click [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#switch_statement) to see an examples switch statement and how it works.
