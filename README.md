@@ -1,12 +1,12 @@
 hello-js
 ============
-:thinking-face: ## What is this?
+:thinking_face: ## What is this?
 This is a comprehensive library/guide of practice problems to understand Javascript. It is organized based on the **JS Guide** from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) and the associated practice problems are categorized in different difficulty levels. I did this to help me learn the language and I made this repo for others who are thinking about learning the language as well! Please feel free to use this guide to help you in your learnings!
 
-🤓 ## How To Use
+:nerd_face: ## How To Use
 In this library, you will find notes that I took based on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide), practice problems I googled regarding each of those concepts, and my solutions to those practice problems. I also watched a lot of videos on YouTube that helped me better understand and master these concepts. All the resources that hepled me in my learnings are listed below if ever you want to gain access to more practice problems than what this repo provides. 
 
-📚 ## Resources
+:books: ## Resources
 - Online Courses with Practice Problems and Coding Challenges
   - [freeCodeCamp](https://www.freecodecamp.org/) (free!)
   - [CodeCademy](https://www.codecademy.com/) ($$) 
