@@ -42,14 +42,14 @@
   - If the conditon you are specifying uses the assignment operator (`=`), then make sure to use double parentheses because otherwise, it can be easily confused with the <em>loose equality</em> (`==`)
    - For example:
     ```    
-        if ((x = 0)) {
-          //some statement here
-        } else {
-          //do this
-        }
+    if ((x = 0)) {
+      //some statement here
+    } else {
+      //do this
+    }
      ```
 - Switch statement
-  - According to <em>MDN Web Docs</em>, "A switch statement allows a program to evaluate an expression and attempt to match the expression's value to a case label. If a match is found, the program executes the associated statement."
+  - A switch statement is used by a program to evaluate an expression and match its value to a case that you provide. If the expression matches, a command (or commands) will be executed.
   - Click [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#switch_statement) to see an examples switch statement and how it works.
 - Break statements
   - These are optional and are basically used with the case clause inside of a switch statement. Their purpose is to ensure that the program breaks out of the switch statement once there is a match and moves on to the next switch (this is important because without a break statement, the program will continue to evaluate the next cases inside of the switch even if a match has been found).
