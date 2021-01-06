@@ -39,7 +39,10 @@
       5 // condition evaluates to true because 5 <= 5 so 5 is printed
       /* 6 will not be printed because the condition will evaluate to false. When the condition evaluates to false, the loop will terminate */
       ```
-  - `for...` loop vs `do ... while` loop
+  - `for...` loop vs `while...` loops
+    - `for...` loops are used when you know how many times the loop should run, which is provided by the condition expression (also known as the termination condition). On the other hand, the order of operations is slightly different in a `while...` loop because the `while...` loop will run the statement block and then evaluate the condition (so the order of operations is the opposite of that of a `for...` loop). You use while loops when you don't know how many times the loop should run.
+
+    
 
 
     
