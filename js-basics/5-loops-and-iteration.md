@@ -11,4 +11,35 @@
       // do something  
     }
     ```
+  - Once the first iteration of the loop is complete, it returns back to the condition expression and runs again until the limit (which is defined in the condition) is reached.
+- `do ... while` statement 
+  - this loop is specifically used to repeat a statenent until a specified condition evaluates to <em>false</em>. The condition is evaluated after the statement is executed.  
+  - syntax:
+    ```
+    do 
+      {//this}
+    while (condition)
+    ```
+  - example:
+      ```
+      let i = 1;
+      const z = 5
+
+      do {
+        console.log(i);
+        i++;
+      } while (i <= n); // condition states to print the value of i as long as i is less than/equal to 5
+      ```
+    - The output will look like this (see comments for why each valus is printed):
+      ```
+      1 // this is initial value and is printed without the condition being checked
+      2 // condition evaluates to true because 2 <= 5 so 2 is printed 
+      3 // condition evaluates to true because 3 <= 5 so 3 is printed 
+      4 // condition evaluates to true because 4 <= 5 so 4 is printed 
+      5 // condition evaluates to true because 5 <= 5 so 5 is printed
+      /* 6 will not be printed because the condition will evaluate to false. When the condition evaluates to false, the loop will terminate */
+      ```
+  - `for...` loop vs `do ... while` loop
+
+
     
