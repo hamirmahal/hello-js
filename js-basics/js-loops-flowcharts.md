@@ -1,5 +1,5 @@
 ### Flowcharts
-![for ... loop]()
-![while ... loop]()
-![do ... while loop]()
+![for ... loop](images/for-loop.png)
+![while ... loop](images/while-loop.png)
+![do ... while loop](images/do-while.png)
 
