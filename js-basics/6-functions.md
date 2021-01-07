@@ -11,8 +11,7 @@
 - Syntax:
   ```
   function myFunction(num1, num2, num3) {
-    console.log((num1 * num2 * num3)/2)
-     
+    console.log((num1 * num2 * num3)/2)  
   }
   ```
   - We wrote a function here that takes three parameters (inputs). The instructions of the function says to print the result of the product of those three inputs divided by 2. 
