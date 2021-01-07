@@ -126,6 +126,8 @@
     "strawberry"
     ```
 
+**Click [here](js-basics/js-loops-flowcharts.md) to see the flowcharts for each of these loops**
+
 - Other statements
   - `label` statement 
     - prefixes an element with an identifier so that that it can be referred to later in the same program
